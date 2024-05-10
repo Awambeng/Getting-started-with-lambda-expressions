@@ -6,7 +6,8 @@ import java.util.List;
 import com.awambeng.lambdaexpressions.data.Employee;
 import com.awambeng.lambdaexpressions.data.EmployeeData;
 
-// print all eployees sorted by salary
+// problem statement: print all eployees sorted by salary using old method 
+// and using lambda expressions.
 public class LambdaExpressionsApplication {
 
 	public static void main(String[] args) {
@@ -33,6 +34,10 @@ public class LambdaExpressionsApplication {
 		for (Employee employee : employees){
 			System.out.println(employee);
 		}
+
+		// implementing the Runnable interface using lambda expression.
+		Runnable runnable = () -> System.out.println("Hello world");
+		runnable.run();
 	}
 
 }
