@@ -1,0 +1,3 @@
+Department [name=Hush, age=23, department=DIGITAL, salary=9000000]
+Department [name=Blessing, age=18, department=DIGITAL, salary=19000000]
+Department [name=Bolan, age=20, department=DIGITAL, salary=1000000]
